@@ -1,0 +1,80 @@
+================= ASP.NET Core
+dotnet new sln
+
+dotnet add referece [target project]
+
+dotnet tool install --global dotnet-ef
+dotnet tool update --global dotnet-ef
+dotnet tool list --globlal
+
+dotnet ef add migration initalmigration -p .\Persistance\ -s .\API\
+
+dotnet ef database drop -s .\API\ -p .\Persistence\
+
+dotnet watch run
+
+dotnet new gitignore
+
+
+Microsoft.AspNetCore.Identity.EntityFrameworkCore 
+dotnet restore
+
+microsoft.aspnetcore.authentication.jwtbearer
+
+
+
+
+================= React
+npx create-react-app client-app --use-npm --typescript
+npx create-react-app my-app --template typescript
+
+npm install axios
+
+
+npm i --save-dev @types/uuid baraye uuid mire definition file ro peyda mikone
+
+
+npm install mobx mobx-react-lite
+
+npm i @types/react-router-dom --save-dev
+
+npm i react-calendar
+
+npm install formik
+
+npm install yup
+npm install @types/yup --sava-dev
+
+npm install react-datepicker
+npm install @types/react-datepicker --save-dev
+npm i date-fns@2.17.0
+
+================= VsCode
+code --disable-extensions .
+
+
+
+
+
+================= React good packages!
+npm i react-toastify
+npm i raven-js
+sentry.io 
+
+================= TS point!
+The as keyword is a Type Assertion in TypeScript which tells the compiler to consider the object as another type than the type the compiler infers the object to be.
+
+------
+let user = {
+  name: "John",
+  age: 30
+};
+
+Object.keys(user) = ["name", "age"]
+Object.values(user) = ["John", 30]
+Object.entries(user) = [ ["name","John"], ["age",30] ]
+-------
+try to populate first arg from second (agent.ts)
+Object.assign(this, init);
+
+-------
